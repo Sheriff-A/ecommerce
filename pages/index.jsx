@@ -1,9 +1,11 @@
 import React from "react";
 
+import { Product, HeroBanner, FooterBanner } from "../components"
+
 const Home = () => {
   return (
     <>
-      HeroBanner
+      <HeroBanner />
       <div className="products-heading">
         <h2>Best Selling Product</h2>
         <p>Speakers of Many Variations</p>
@@ -13,7 +15,7 @@ const Home = () => {
           return product;
         })}
       </div>
-      Footer
+      <FooterBanner />
     </>
   );
 };
