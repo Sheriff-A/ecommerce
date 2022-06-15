@@ -1,6 +1,6 @@
 export default {
-    name: "product",
-    title: "Product",
+    name: 'product',
+    title: 'Product',
     type: 'document',
     fields: [{
             name: 'image',
@@ -10,31 +10,32 @@ export default {
                 type: 'image'
             }],
             options: {
-                hotspot: true
+                hotspot: true,
             }
         },
         {
             name: 'name',
             title: 'Name',
-            type: 'string'
+            type: 'string',
         },
         {
             name: 'slug',
             title: 'Slug',
             type: 'slug',
             options: {
-                source: 'name'
+                source: 'name',
+                maxLength: 90,
             }
         },
         {
             name: 'price',
             title: 'Price',
-            type: 'number'
+            type: 'number',
         },
         {
             name: 'details',
             title: 'Details',
-            type: 'string'
+            type: 'string',
         }
     ]
 }
