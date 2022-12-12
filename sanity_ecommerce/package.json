@@ -7,7 +7,7 @@
   "author": "Sheriff-A <manshari619@yahoo.com>",
   "license": "UNLICENSED",
   "scripts": {
-    "start": "sanity start",
+    "start": "npx @sanity/cli start",
     "build": "sanity build"
   },
   "keywords": [
